@@ -11,12 +11,12 @@ public class MainMethod2Test {
 
 	@Test
 	public void test1() {
-		System.setProperty("webdriver.chrome.driver", "/Users/jasdeepkaur/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "src/chromedriver 2");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://google.com");
 		driver.findElement(By.id("lst-ib")).sendKeys("jasdeep Kaur");
-		driver.findElement(By.className("btnK")).click();
+		//driver.findElement(By.className("btnK")).click();
 	
 
 	}
