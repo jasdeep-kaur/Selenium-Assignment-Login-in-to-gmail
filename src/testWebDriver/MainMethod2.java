@@ -9,9 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.openqa.selenium.ChromeDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 public class MainMethod2 {
@@ -37,20 +34,6 @@ public class MainMethod2 {
 		System.out.println("signin");
 		driver.findElement(By.id("signIn")).click();
 		
-	/*	WebElement element=driver.findElement(By.id("lst-ib"));
-	    element.sendKeys("jasdeep kaur");
-        System.out.println("bye1");
-	    element=driver.findElement(By.className("btnK"));
-	    element.click();
-	    System.out.println("bye2");
-	    element=driver.findElement(By.id("passwd"));
-	    element.sendKeys("qwer");
-	    System.out.println("bye3");
-	    element=driver.findElement(By.id("signIn"));
-	    element.click();
-	    System.out.println("bye4");
-    */
-	
 	
 	
 	
